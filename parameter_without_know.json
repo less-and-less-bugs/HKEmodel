@@ -1,0 +1,53 @@
+{
+  "BASE_DIR" : "/home/liuhui/lhgpu/sarcasm",
+  "DATA_DIR" : "/home/liuhui/lhgpu/sarcasm/twitter/img_emb",
+  "TARGET_DIR" : "/home/liuhui/lhgpu/sarcasm/result",
+  "annotation_files" : "/home/liuhui/lhgpu/sarcasm/twitter/dataset_text",
+  "model_name" : "KEHM",
+
+  "patience" : 5,
+  "batch_size" : 32,
+  "epochs" : 15,
+  "max_length":120,
+  "use_np": false,
+  "seed": 42,
+  "weight_decay" : 0.005,
+
+
+  "lr" : 2e-5,
+
+  "txt_input_dim" : 768,
+  "txt_out_size" : 150,
+
+  "img_input_dim" : 768,
+  "img_inter_dim" : 500,
+  "img_out_dim" : 150,
+
+  "cro_layers" : 6,
+  "cro_heads" : 5,
+  "cro_drop" : 0.5,
+
+  "txt_gat_layer" : 2,
+  "txt_gat_drop" : 0.5,
+  "txt_gat_head" : 2,
+  "txt_self_loops" : true,
+  "img_gat_layer" : 2,
+  "img_gat_drop" : 0.5,
+  "img_gat_head" : 2,
+  "img_self_loops" : true,
+  "img_edge_dim" : 0,
+  "img_patch" : 49,
+
+  "lambda" :1,
+  "type_bmco" : 1,
+
+  "knowledge_type" : 0,
+  "know_max_length": 20,
+  "know_gat_layer": 2,
+  "know_gat_head": 1,
+
+  "know_cro_layer": 3,
+  "know_cro_head": 5,
+  "know_cro_type": 0,
+  "visualization": false
+}
