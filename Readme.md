@@ -18,7 +18,7 @@ CUDA_VISIBLE_DEVICES=1 python train.py
 
 For experiment, please refer to requirements. txt and we only list the core packages.
 
-For dataset,  **as the anonymous rule,** we will upload the `twitter.zip`  **afterwards.**
+For dataset,  please download at this link https://portland-my.sharepoint.com/:u:/g/personal/liuhui3-c_my_cityu_edu_hk/Eb59O8EpvO5Ft_M4FKmfPgsBjq_V_1HefEyooyjpL2t8yA?e=lTw6Up. For the orginial dataset, see as https://github.com/headacheboy/data-of-multimodal-sarcasm-detection.
 
 # CheckList 
 
