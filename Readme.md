@@ -1,6 +1,7 @@
 # Introduction
 
 Official implementation of **Towards Multi-Modal Sarcasm Detection via Hierarchical Congruity Modeling with Knowledge Enhancement**.
+
 Citation of our paper:
 Hui Liu, Wenya Wang, and Haoliang Li. 2022. Towards Multi-Modal Sarcasm Detection via Hierarchical Congruity Modeling with Knowledge Enhancement. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pages 4995–5006, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics.
 
